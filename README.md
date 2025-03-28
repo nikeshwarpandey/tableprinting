@@ -7,4 +7,10 @@ A simple utility that print table for given number
 ## Installation
 
 ````bash
-npm install table-print
+
+npm i tablesprinting
+
+const tablePrint = require('tablesprinting');
+
+
+console.log(tablePrint(2));
